@@ -1,0 +1,26 @@
+.side { 
+    background-color: rgb(41, 205, 226);
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 150px;
+    margin-top: 50px;
+    font-size:italic;
+}
+.title:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.bloc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bloc:hover { 
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
